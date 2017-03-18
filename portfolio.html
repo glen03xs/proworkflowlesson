@@ -25,10 +25,10 @@
         <header class="main-header">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
                         <a href="index.html"><img src="img/logo.png" alt="Logo"></a>
                     </div> <!--end col-lg-4-->
-                    <div class="col lg 8">
+                    <div class="col lg 8 col-md-8 col-sm-8 col-xs-4">
                         <nav class="main-nav">
                             <ul>
                                 <li><a href="index.html">Home</a></li>
@@ -66,16 +66,17 @@
                 </div> <!--end project-nav-->
             </div> <!--end container-->
 
-            <div class="cycle-slideshow" data-cycle-fx="scroll-horizontal" data-cycle-timeout="0">
+            <div class="cycle-slideshow container" data-cycle-fx="scroll-horizontal" data-cycle-timeout="0">
                 <div class="cycle-prev">
-                        <a href="#"><i class="fa fa-chevron-left"></i></a>
-                    </div> <!--end cycle-prev-->
-                    <div class="cycle-next">
-                        <a href="#"><i class="fa fa-chevron-right"></i></a>
-                    </div> <!--end cycle-next-->
-                <img src="images/slide-1-bg.jpg" alt="Slide 1">
-                <img src="images/slide-2-bg.jpg" alt="Slide 2">
-                <img src="images/slide-3-bg.jpg" alt="Slide 3">
+                    <a href="#"><i class="fa fa-chevron-left"></i></a>
+                </div> <!--end cycle-prev-->
+                <div class="cycle-next">
+                    <a href="#"><i class="fa fa-chevron-right"></i></a>
+                </div> <!--end cycle-next-->
+                 
+                <img src="img/slide-1-bg.jpg" alt="Slide 1">
+                <img src="img/slide-2-bg.jpg" alt="Slide 2">
+                <img src="img/slide-3-bg.jpg" alt="Slide 3">
             </div> <!--end cycle-slideshow-->
         </section>
  
@@ -101,11 +102,8 @@
             </div>
         </footer>
 
-
-
-
-        <script>
-
-        </script>
+    <!--JS-->
+        <script src="js/jquery.min.js"></script>
+        <script src="http://malsup.github.io/min/jquery.cycle2.min.js"></script>
     </body>
 </html>
