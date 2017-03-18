@@ -1,0 +1,60 @@
+/**************************************************************/
+/* UI ELEMENT STYLES */
+/**************************************************************/
+/**************** Buttons *******************/
+.btn {
+    border: 1px solid $color-button-1;
+    display: inline-block;
+    height: $baseline * 2;
+    min-width: 10em;
+    padding: .7em 1em;
+
+    color: $color-button-1;
+    font-weight: bold;
+    font-style: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+
+    &:hover {
+        background-color: $color-button-1;
+        color: #fff;
+        text-decoration: none;
+    }
+}
+
+
+/**************** Forms *******************/
+
+form {
+    input[type="text"],
+    input[type="email"], 
+    input[type="password"] {
+        border: none;
+        height: $baseline * 2;
+        outline: none;
+    }
+    
+    
+    input[type="submit"] {
+        background-color: transparent;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

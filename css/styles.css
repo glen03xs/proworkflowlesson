@@ -1,0 +1,124 @@
+/***************************************************************
+
+	Project Name: 
+	Project Description: 
+	File Name: styles.css
+	Author: Glen Nepomuceno
+	Author URI: http://www.glennepomuceno.com
+	Version: 1.0.0
+	
+****************************************************************/
+/**************** TYPOGRAPHY VARIABLES *******************/
+/**************** Colors *******************/
+/**************************************************************/
+/* @FONT-FACE */
+/**************************************************************/
+/***************************************************************/
+/* Typography */
+/***************************************************************/
+body {
+  color: #2e2e2e;
+  font: 18px/27px "Open Sans", "Helvetica Nue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased; }
+
+P {
+  margin: 0 0 27px 0; }
+  P.narrow-p {
+    margin: 0 auto 27px auto;
+    width: 65%; }
+  P a {
+    font-style: italic; }
+
+a {
+  color: #F36151; }
+  a:hover {
+    color: #2e2e2e; }
+
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0; }
+
+h1,
+h2,
+h3 {
+  font-family: "Lato", "Helvetica Nue", Helvetica, Arial, sans-serif; }
+
+h1 {
+  font-size: 55px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  line-height: 1.2; }
+
+h2 {
+  font-size: 32px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  line-height: 1.3; }
+
+h3 {
+  font-size: 23px;
+  line-height: 1.4; }
+
+h4 {
+  color: #989898;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+
+.center-content {
+  text-align: center; }
+
+/**************************************************************/
+/* UI ELEMENT STYLES */
+/**************************************************************/
+/**************** Buttons *******************/
+.btn {
+  border: 1px solid #f2ae5d;
+  display: inline-block;
+  height: 54px;
+  min-width: 10em;
+  padding: .7em 1em;
+  color: #f2ae5d;
+  font-weight: bold;
+  font-style: normal;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center; }
+  .btn:hover {
+    background-color: #f2ae5d;
+    color: #fff;
+    text-decoration: none; }
+
+/**************** Forms *******************/
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+  border: none;
+  height: 54px;
+  outline: none; }
+form input[type="submit"] {
+  background-color: transparent; }
+
+/***************************************************************/
+/* UTILITY CLASSES  */
+/***************************************************************/
+/**************************************************************/
+/* GENERAL */
+/**************************************************************/
+/**************************************************************/
+/* HEADER */
+/**************************************************************/
+/**************************************************************/
+/* MIDDLE CONTAINER */
+/**************************************************************/
+/***************************************************************/
+/*  */
+/***************************************************************/
+/***************************************************************/
+/* FOOTER AREA */
+/***************************************************************/
+
+/*# sourceMappingURL=styles.css.map */
