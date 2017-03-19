@@ -300,4 +300,52 @@ form input[type="email"] + input[type="submit"] {
     font-size: 27px;
     margin-bottom: 27px; }
 
+/**************************************************************/
+/* RESPONSIVE */
+/**************************************************************/
+@media (max-width: 992px) {
+  .hover-contents {
+    background-color: transparent;
+    padding: 0;
+    position: relative;
+    text-align: left; }
+    .hover-contents h3 {
+      color: #2e2e2e;
+      font-size: 1em;
+      margin-bottom: 0; }
+    .hover-contents p {
+      display: none; }
+
+  p.narrow-p {
+    width: 90%; } }
+@media (max-width: 767px) {
+  .main-header {
+    background-color: #333538;
+    position: relative;
+    text-align: center; }
+
+  .main-nav {
+    float: none;
+    margin-top: 27px; }
+    .main-nav ul li:first-child {
+      margin-left: 0; }
+    .main-nav ul li a {
+      line-height: 1; }
+
+  #homepage-slider {
+    display: none; }
+
+  .section-header {
+    margin-top: 54px; }
+
+  #footer-subscribe input[type="submit"] {
+    display: block;
+    margin: 27px auto 0 auto; }
+
+  .page-banner {
+    padding-top: 108px;
+    margin-bottom: 54px; }
+    .page-banner .fancy-box h1 {
+      font-size: 40px; } }
+
 /*# sourceMappingURL=styles.css.map */
